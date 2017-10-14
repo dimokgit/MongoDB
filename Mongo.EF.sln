@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.Console", "Mongo.Console\Mongo.Console.csproj", "{0A08690C-3830-4AD6-9C71-B8B062B9D330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.EF", "Mongo.EF\Mongo.EF.csproj", "{2529DB2F-B458-43CB-BADE-2EDFCF394FCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mongo.WebApi", "Mongo.WebApi\Mongo.WebApi.csproj", "{3E970939-B0B5-4AB8-9317-A9C7E4EEA2A0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A08690C-3830-4AD6-9C71-B8B062B9D330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A08690C-3830-4AD6-9C71-B8B062B9D330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A08690C-3830-4AD6-9C71-B8B062B9D330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A08690C-3830-4AD6-9C71-B8B062B9D330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2529DB2F-B458-43CB-BADE-2EDFCF394FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2529DB2F-B458-43CB-BADE-2EDFCF394FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2529DB2F-B458-43CB-BADE-2EDFCF394FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2529DB2F-B458-43CB-BADE-2EDFCF394FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E970939-B0B5-4AB8-9317-A9C7E4EEA2A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E970939-B0B5-4AB8-9317-A9C7E4EEA2A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E970939-B0B5-4AB8-9317-A9C7E4EEA2A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E970939-B0B5-4AB8-9317-A9C7E4EEA2A0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4BD73A7-E7B0-4479-B865-F518095C486E}
+	EndGlobalSection
+EndGlobal
