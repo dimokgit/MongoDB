@@ -4,10 +4,10 @@ using Microsoft.Owin;
 using Owin;
 using Mongo.WebApi.App_Start;
 using Compusight.MoveDesk.UserManagementApi.Configuration;
-using System.Web.OData.Extensions;
-using Microsoft.Restier.Providers.EntityFramework;
-using Microsoft.Restier.Publishers.OData.Batch;
-using Microsoft.Restier.Publishers.OData;
+//using System.Web.OData.Extensions;
+//using Microsoft.Restier.Providers.EntityFramework;
+//using Microsoft.Restier.Publishers.OData.Batch;
+//using Microsoft.Restier.Publishers.OData;
 
 [assembly: OwinStartup(typeof(Mongo.WebApi.Startup))]
 

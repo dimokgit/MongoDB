@@ -1,4 +1,5 @@
 ﻿using HedgeHog.MongoDB;
+using MongoDB.Bson;
 using System;
 using System.Collections.Generic;
 using System.Globalization;
@@ -10,15 +11,19 @@ namespace Mongo {
   class Program {
     static void Main(string[] args) {
       using(var db = new ForexDbContext()) {
-        var trades = db.Trades.ToArray();
-        var openDate = DateTime.Parse("01/04/2018 9:35:48");
-        db.Trades.Add(new Trade("DImok", 1, 2, 10, 20, 100, openDate, openDate.AddSeconds(60 * 10 + 19),48));
-        db.SaveChanges();
-        foreach(var o in db.Trades) {
-          Console.WriteLine(new { o.Symbol, o.OpenPrice, o.ClosePrice, o.TimeOpen, o.TimeClose,o.PL } + "");
-        }
-        Console.ReadKey();
-        return;
+        //var trades = db.Trades.ToArray();
+        //var openDate = DateTime.Parse("01/04/2018 9:35:48");
+        //db.Trades.Add(new Trade("DImok", 1, 2, 10, 20, 100, openDate, openDate.AddSeconds(60 * 10 + 19),48));
+        //db.SaveChanges();
+        //foreach(var o in db.Trades) {
+        //  Console.WriteLine(new { o.Symbol, o.OpenPrice, o.ClosePrice, o.TimeOpen, o.TimeClose,o.PL } + "");
+        //}
+        //Console.ReadKey();
+        //return;
+
+        //Console.WriteLine(new { cd = "simulator::debug_realmicro 4", o = db.TraderModelPersist.Find("simulator::debug_realmicro 4") }.ToJson());
+        //db.TraderModelPersist.ToList().ForEach(o=>Console.WriteLine(o.ToJson()));
+ 
         db.ToDos.Add(new ToDo { What = "Debug", When = DateTime.UtcNow });
         try {
           db.SaveChanges();
@@ -48,6 +53,7 @@ namespace Mongo {
         foreach(var o in offers) {
           Console.WriteLine(new { o.Pair, o.MMRLong } + "");
         }
+        Console.ReadKey();
 
         //var tms = db.TradingMacroSettings.ToArray();
         //db.TradingMacroSettings.Add(new TradingMacroSettings { Pair = "Dimok", PairIndex = 1 });

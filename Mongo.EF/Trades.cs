@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace HedgeHog.MongoDB {
-  public class Trade {
+  public class Trade_Old {
     [Key]
     public ObjectId _id { get; set; }
     public String Symbol { get; set; }
@@ -16,11 +16,11 @@ namespace HedgeHog.MongoDB {
     public Double Open { get; set; }
     public Double Close { get; set; }
     public Double Quantity { get; set; }
-    public DateTime TimeOpen { get; set; }
-    public DateTime TimeClose { get; set; }
+    public BsonDateTime TimeOpen { get; set; }
+    public BsonDateTime TimeClose { get; set; }
     public Double PL { get; set; }
-    public Trade() { }
-    public Trade(String symbol, Double openPrice, Double closePrice, Double open, Double close, Double quantity, DateTime timeOpen, DateTime timeClose,Double pl) {
+    public Trade_Old() { }
+    public Trade_Old(String symbol, Double openPrice, Double closePrice, Double open, Double close, Double quantity, BsonDateTime timeOpen, BsonDateTime timeClose,Double pl) {
       Symbol=symbol;
       OpenPrice = openPrice;
       ClosePrice = closePrice;

@@ -33,17 +33,59 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Blueshift.EntityFrameworkCore.MongoDB, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Blueshift.EntityFrameworkCore.MongoDB.2.1.0-preview2-t0076ae592\lib\net461\Blueshift.EntityFrameworkCore.MongoDB.dll</HintPath>
-    </Reference>
     <Reference Include="DnsClient, Version=1.2.0.0, Culture=neutral, PublicKeyToken=4574bb5573c51424, processorArchitecture=MSIL">
       <HintPath>..\packages\DnsClient.1.2.0\lib\net45\DnsClient.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.EntityFrameworkCore, Version=2.2.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.EntityFrameworkCore.2.2.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Authentication, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Authentication.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions, Version=2.2.1.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Abstractions.2.2.1\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
+    <Reference Include="Microsoft.AspNetCore.Authentication.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Authentication.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authentication.Cookies, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Authentication.Cookies.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Authentication.Core, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Authentication.Core.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Authentication.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Cryptography.Internal, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Cryptography.Internal.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Cryptography.Internal.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Cryptography.KeyDerivation, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Cryptography.KeyDerivation.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.DataProtection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.DataProtection.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.DataProtection.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.DataProtection.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.DataProtection.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.DataProtection.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Hosting.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Hosting.Server.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Hosting.Server.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http, Version=2.2.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.2.2.2\lib\netstandard2.0\Microsoft.AspNetCore.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Extensions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Extensions.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.Http.Features, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.Http.Features.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.Http.Features.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNetCore.WebUtilities, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNetCore.WebUtilities.2.2.0\lib\netstandard2.0\Microsoft.AspNetCore.WebUtilities.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore, Version=2.2.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.EntityFrameworkCore.Abstractions, Version=2.2.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.EntityFrameworkCore.Abstractions.2.2.6\lib\netstandard2.0\Microsoft.EntityFrameworkCore.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Caching.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Caching.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
@@ -58,7 +100,7 @@
       <HintPath>..\packages\Microsoft.Extensions.Configuration.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Abstractions.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Configuration.Binder, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Extensions.Configuration.Binder.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
+      <HintPath>..\packages\Microsoft.Extensions.Configuration.Binder.2.2.4\lib\netstandard2.0\Microsoft.Extensions.Configuration.Binder.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.DependencyInjection, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.2.2.0\lib\net461\Microsoft.Extensions.DependencyInjection.dll</HintPath>
@@ -66,11 +108,20 @@
     <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Extensions.FileProviders.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.FileProviders.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.FileProviders.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Hosting.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.Hosting.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Hosting.Abstractions.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Extensions.Logging, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Logging.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.ObjectPool, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.ObjectPool.2.2.0\lib\netstandard2.0\Microsoft.Extensions.ObjectPool.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.Extensions.Options, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Options.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Options.dll</HintPath>
@@ -78,14 +129,23 @@
     <Reference Include="Microsoft.Extensions.Primitives, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Primitives.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
     </Reference>
-    <Reference Include="MongoDB.Bson, Version=2.7.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MongoDB.Bson.2.7.2\lib\net45\MongoDB.Bson.dll</HintPath>
+    <Reference Include="Microsoft.Extensions.WebEncoders, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Extensions.WebEncoders.2.2.0\lib\netstandard2.0\Microsoft.Extensions.WebEncoders.dll</HintPath>
     </Reference>
-    <Reference Include="MongoDB.Driver, Version=2.7.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MongoDB.Driver.2.7.2\lib\net45\MongoDB.Driver.dll</HintPath>
+    <Reference Include="Microsoft.Net.Http.Headers, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.Headers.2.2.0\lib\netstandard2.0\Microsoft.Net.Http.Headers.dll</HintPath>
     </Reference>
-    <Reference Include="MongoDB.Driver.Core, Version=2.7.2.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\MongoDB.Driver.Core.2.7.2\lib\net45\MongoDB.Driver.Core.dll</HintPath>
+    <Reference Include="Microsoft.Win32.Registry, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Win32.Registry.4.5.0\lib\net461\Microsoft.Win32.Registry.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Bson, Version=2.8.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Bson.2.8.1\lib\net452\MongoDB.Bson.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver, Version=2.8.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.2.8.1\lib\net452\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core, Version=2.8.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\MongoDB.Driver.Core.2.8.1\lib\net452\MongoDB.Driver.Core.dll</HintPath>
     </Reference>
     <Reference Include="Remotion.Linq, Version=2.2.0.0, Culture=neutral, PublicKeyToken=fee00910d6e5f53b, processorArchitecture=MSIL">
       <HintPath>..\packages\Remotion.Linq.2.2.0\lib\net45\Remotion.Linq.dll</HintPath>
@@ -103,9 +163,11 @@
     <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.OracleClient" />
     <Reference Include="System.Diagnostics.DiagnosticSource, Version=4.0.3.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Diagnostics.DiagnosticSource.4.5.1\lib\net46\System.Diagnostics.DiagnosticSource.dll</HintPath>
     </Reference>
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Interactive.Async, Version=3.2.0.0, Culture=neutral, PublicKeyToken=94bc3704cddfc263, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Interactive.Async.3.2.0\lib\net46\System.Interactive.Async.dll</HintPath>
     </Reference>
@@ -119,9 +181,10 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Memory, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Memory.4.5.2\lib\netstandard2.0\System.Memory.dll</HintPath>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
     </Reference>
+    <Reference Include="System.Net" />
     <Reference Include="System.Numerics" />
     <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
@@ -131,16 +194,16 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Runtime, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.4.3.0\lib\net462\System.Runtime.dll</HintPath>
+    <Reference Include="System.Runtime, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.4.3.1\lib\net462\System.Runtime.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.2\lib\netstandard2.0\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
-    <Reference Include="System.Runtime.Extensions, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.Extensions.4.3.0\lib\net462\System.Runtime.Extensions.dll</HintPath>
+    <Reference Include="System.Runtime.Extensions, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.Extensions.4.3.1\lib\net462\System.Runtime.Extensions.dll</HintPath>
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
@@ -149,6 +212,25 @@
       <Private>True</Private>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Security.AccessControl, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.AccessControl.4.5.0\lib\net461\System.Security.AccessControl.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Xml, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Xml.4.5.0\lib\net461\System.Security.Cryptography.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Permissions, Version=4.0.1.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Permissions.4.5.0\lib\net461\System.Security.Permissions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal.Windows, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Principal.Windows.4.5.1\lib\net461\System.Security.Principal.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Text.Encodings.Web, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.4.5.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -157,6 +239,119 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Conventions\AbstractBaseClassConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Conventions\BsonClassMapAttributeConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Conventions\BsonMemberMapAttributeConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Conventions\IgnoreEmptyEnumerablesConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Conventions\IgnoreNullOrEmptyStringsConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Conventions\KeyAttributeConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Conventions\NavigationSrializationMemberMapConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Conventions\NotMappedAttributeConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\EntityFrameworkConventionPack.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Serialization\BsonSerializerExtensions.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Serialization\DenormalizingBsonClassMapSerializer.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Serialization\NavigationBsonMemberMapSerializer.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Update\DeleteOneModelFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Update\IMongoDbWriteModelFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Update\IMongoDbWriteModelFactoryCache.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Update\IMongoDbWriteModelFactorySelector.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Update\InsertOneModelFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Update\MongoDbWriteModelFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Update\MongoDbWriteModelFactoryCache.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Update\MongoDbWriteModelFactorySelector.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Adapter\Update\ReplaceOneModelFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Annotations\DenormalizeAttribute.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Annotations\MongoCollectionAttribute.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Annotations\MongoDatabaseAttribute.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\ChangeTracking\MongoDbInternalEntityEntryFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\DbContextOptionsExtensions.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\DependencyInjection\MongoDbEfServiceCollectionExtensions.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Infrastructure\EntityFrameworkMongoDbServicesBuilder.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Infrastructure\MongoDbContextOptionsBuilder.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Infrastructure\MongoDbContextOptionsBuilderExtensions.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Infrastructure\MongoDbModelValidator.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Infrastructure\MongoDbOptionsExtension.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\ListExtensions.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Builders\DocumentDbInternalMetadataBuilderExtensions.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Builders\DocumentEntityTypeBuilderExtensions.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Builders\DocumentInternalKeyBuilderExtensions.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Builders\MongoDbConventionSetBuilder.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Builders\MongoDbConventionSetBuilderDependencies.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Builders\MongoDbEntityTypeBuilderExtensions.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Builders\MongoDbInternalMetadataBuilderExtensions.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Builders\MongoDbModelBuilderExtensions.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Conventions\BsonDiscriminatorAttributeConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Conventions\BsonIgnoreAttributeConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Conventions\BsonKnownTypesAttributeConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Conventions\BsonRequiredAttributeConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Conventions\DocumentPropertyMappingValidationConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Conventions\MongoCollectionAttributeConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Conventions\MongoDatabaseConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Conventions\MongoDbDatabaseGeneratedAttributeConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Conventions\MongoDbKeyAttributeConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Conventions\MongoDbRelationshipDiscoveryConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\Conventions\OwnedDocumentConvention.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\DocumentAnnotationNames.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\DocumentAnnotations.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\DocumentEntityTypeAnnotations.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\DocumentKeyAnnotations.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\MongoDbAnnotationNames.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\MongoDbEntityTypeAnnotations.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Metadata\MongoDbModelAnnotations.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\MethodHelper.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\MongoDbUtilities.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\ObjectIdTypeConverter.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Properties\AssemblyInfo.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Properties\DocumentDbStrings.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Properties\DocumentDbStrings.Designer.cs">
+      <DependentUpon>DocumentDbStrings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Properties\DocumentDbStrings1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DocumentDbStrings.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\EntityLoadInfoFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\Expressions\DocumentQueryExpression.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\Expressions\IDocumentQueryExpressionFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\Expressions\MongoDbDocumentQueryExpressionFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\ExpressionVisitors\DocumentNavigationRewritingExpressionVisitor.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\ExpressionVisitors\DocumentNavigationRewritingExpressionVisitorFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\ExpressionVisitors\IMongoDbDenormalizedCollectionCompensatingVisitorFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\ExpressionVisitors\MongoDbDenormalizedCollectionCompensatingVisitor.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\ExpressionVisitors\MongoDbDenormalizedCollectionCompensatingVisitorFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\ExpressionVisitors\MongoDbEntityQueryableExpressionVisitor.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\ExpressionVisitors\MongoDbEntityQueryableExpressionVisitorFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\ExpressionVisitors\MongoDbMemberAccessBindingExpressionVisitor.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\ExpressionVisitors\MongoDbMemberAccessBindingExpressionVisitorFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\IEntityLoadInfoFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\IValueBufferFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\LinqQueryCompilationContextFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\MongoDbEntityQueryModelVisitor.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\MongoDbEntityQueryModelVisitorDependencies.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\MongoDbEntityQueryModelVisitorFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\MongoDbQueryBuffer.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\MongoDbQueryContext.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\MongoDbQueryContextFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\QueryableLinqOperatorProvider.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Query\ValueBufferFactory.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Storage\IMongoDbConnection.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Storage\IMongoDbTypeMappingSource.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Storage\MongoDbConnection.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Storage\MongoDbDatabase.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Storage\MongoDbDatabaseCreator.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\Storage\MongoDbTypeMappingSource.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\ValueGeneration\HashCodeValueGenerator.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\ValueGeneration\IntegerValueGenerator.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\ValueGeneration\MongoDbValueGeneratorSelector.cs" />
+    <Compile Include="Blueshift.EntityFrameworkCore.MongoDB\ValueGeneration\ObjectIdValueGenerator.cs" />
+    <Compile Include="DataContractAttribute.cs" />
+    <Compile Include="Shared\Check.cs" />
+    <Compile Include="Shared\CodeAnnotations.cs" />
+    <Compile Include="Shared\MemberInfoExtensions.cs" />
+    <Compile Include="Shared\PropertyInfoExtensions.cs" />
+    <Compile Include="Shared\SharedTypeExtensions.cs" />
+    <Compile Include="Shared\StringBuilderExtensions.cs" />
     <Compile Include="Trades.cs" />
     <Compile Include="TradingMacroSettings.cs" />
     <Compile Include="ForexDbContext.cs" />
@@ -165,6 +360,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\netstandard2.0\Blueshift.EntityFrameworkCore.MongoDB.deps.json" />
     <None Include="Mongo.EF.nuspec" />
     <None Include="packages.config" />
     <None Include="_CreateNewNuGetPackage\Config.ps1" />
@@ -176,6 +372,150 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="_CreateNewNuGetPackage\DoNotModify\NuGet.exe" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Blueshift.EntityFrameworkCore.MongoDB.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Blueshift.EntityFrameworkCore.MongoDB.pdb" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Blueshift.EntityFrameworkCore.MongoDB.xml" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\DnsClient.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.EntityFrameworkCore.Abstractions.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.EntityFrameworkCore.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.Extensions.Caching.Abstractions.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.Extensions.Caching.Memory.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.Extensions.Configuration.Abstractions.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.Extensions.Configuration.Binder.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.Extensions.Configuration.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.Extensions.DependencyInjection.Abstractions.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.Extensions.DependencyInjection.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.Extensions.Logging.Abstractions.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.Extensions.Logging.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.Extensions.Options.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.Extensions.Primitives.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Microsoft.Win32.Primitives.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\MongoDB.Bson.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\MongoDB.Driver.Core.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\MongoDB.Driver.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\netstandard.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\Remotion.Linq.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.AppContext.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Buffers.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Collections.Concurrent.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Collections.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Collections.Immutable.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Collections.NonGeneric.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Collections.Specialized.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.ComponentModel.Annotations.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.ComponentModel.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.ComponentModel.EventBasedAsync.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.ComponentModel.Primitives.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.ComponentModel.TypeConverter.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Console.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Data.Common.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Diagnostics.Contracts.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Diagnostics.Debug.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Diagnostics.DiagnosticSource.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Diagnostics.FileVersionInfo.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Diagnostics.Process.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Diagnostics.StackTrace.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Diagnostics.TextWriterTraceListener.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Diagnostics.Tools.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Diagnostics.TraceSource.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Diagnostics.Tracing.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Drawing.Primitives.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Dynamic.Runtime.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Globalization.Calendars.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Globalization.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Globalization.Extensions.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Interactive.Async.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.IO.Compression.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.IO.Compression.ZipFile.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.IO.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.IO.FileSystem.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.IO.FileSystem.DriveInfo.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.IO.FileSystem.Primitives.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.IO.FileSystem.Watcher.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.IO.IsolatedStorage.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.IO.MemoryMappedFiles.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.IO.Pipes.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.IO.UnmanagedMemoryStream.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Linq.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Linq.Expressions.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Linq.Parallel.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Linq.Queryable.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Memory.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Net.Http.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Net.NameResolution.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Net.NetworkInformation.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Net.Ping.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Net.Primitives.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Net.Requests.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Net.Security.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Net.Sockets.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Net.WebHeaderCollection.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Net.WebSockets.Client.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Net.WebSockets.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Numerics.Vectors.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.ObjectModel.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Reflection.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Reflection.Extensions.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Reflection.Primitives.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Resources.Reader.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Resources.ResourceManager.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Resources.Writer.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Runtime.CompilerServices.Unsafe.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Runtime.CompilerServices.VisualC.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Runtime.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Runtime.Extensions.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Runtime.Handles.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Runtime.InteropServices.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Runtime.InteropServices.RuntimeInformation.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Runtime.Numerics.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Runtime.Serialization.Formatters.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Runtime.Serialization.Json.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Runtime.Serialization.Primitives.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Runtime.Serialization.Xml.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Security.Claims.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Security.Cryptography.Algorithms.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Security.Cryptography.Csp.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Security.Cryptography.Encoding.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Security.Cryptography.Primitives.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Security.Cryptography.X509Certificates.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Security.Principal.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Security.SecureString.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Text.Encoding.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Text.Encoding.Extensions.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Text.RegularExpressions.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Threading.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Threading.Overlapped.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Threading.Tasks.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Threading.Tasks.Parallel.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Threading.Thread.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Threading.ThreadPool.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Threading.Timer.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.ValueTuple.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Xml.ReaderWriter.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Xml.XDocument.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Xml.XmlDocument.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Xml.XmlSerializer.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Xml.XPath.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\net461\System.Xml.XPath.XDocument.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\netstandard2.0\Blueshift.EntityFrameworkCore.MongoDB.dll" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\netstandard2.0\Blueshift.EntityFrameworkCore.MongoDB.pdb" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\bin\Debug\netstandard2.0\Blueshift.EntityFrameworkCore.MongoDB.xml" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\Blueshift.EntityFrameworkCore.MongoDB.csproj" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\Properties\Blueshift.EntityFrameworkCore.MongoDB.rd.xml" />
+    <Content Include="Blueshift.EntityFrameworkCore.MongoDB\Properties\DocumentDbStrings.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>DocumentDbStrings1.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Blueshift.EntityFrameworkCore.MongoDB\Properties\DocumentDbStrings.resx">
+      <DependentUpon>DocumentDbStrings.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

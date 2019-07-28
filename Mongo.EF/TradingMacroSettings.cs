@@ -148,7 +148,7 @@ namespace HedgeHog.MongoDB {
     public int DistanceDaysBack { get; set; }
     public bool DoLogSaveRates { get; set; }
     public bool DoStreatchRates_ { get; set; }
-    public object ForceOpenTrade { get; set; }
+    public bool ForceOpenTrade { get; set; }
     public bool IsGannAnglesManual_ { get; set; }
     public bool IsSuppResManual_ { get; set; }
     public int LoadRatesSecondsWarning_ { get; set; }
