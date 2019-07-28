@@ -21,6 +21,7 @@ namespace HedgeHog.MongoDB {
     public DbSet<Employee> Employees { get; set; }
     public DbSet<ToDo> ToDos { get; set; }
     public DbSet<Offer> Offer { get; set; }
+    public DbSet<Trade> Trades { get; set; }
 
     public ForexDbContext(string connectionString):this() {
       _connectionString = connectionString;
